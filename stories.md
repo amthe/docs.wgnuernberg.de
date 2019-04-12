@@ -1,7 +1,7 @@
 ---
 title: stories
 has_children: false
-nav_order: 2
+nav_order: 0
 ---
 ## story_greet <!--- The name of the story. It is not mandatory, but useful for debugging. --> 
 * greet <!--- User input expressed as intent. In this case it represents users message 'Hello'. --> 

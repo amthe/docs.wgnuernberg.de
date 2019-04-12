@@ -1,7 +1,7 @@
 ---
 title: intents
 has_children: false
-nav_order: 2
+nav_order: 0
 ---
 <!--- Make sure to update this training data file with more training examples from https://forum.rasa.com/t/rasa-starter-pack/704 --> 
 
