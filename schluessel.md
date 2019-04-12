@@ -4,8 +4,6 @@ parent: Wohnen
 has_children: false
 ---
 
-[TOC]
-
 # Schlüssel
 
 Du bekommst von uns drei normale mechanischen Schlüssel und zwei elektronische Transponder (Chips). Durch die Kombination aus mechanischen Schlüsseln und elektromechanischen Schlüsseln hast du die minimalen Kosten im Fall eines Schlüsselverlustes und den höchsten Komfort.
