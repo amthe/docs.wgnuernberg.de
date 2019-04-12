@@ -16,7 +16,7 @@ Schlüsselverluste wie z.B. bei Wohnungsschlüsseln oder Arbeitsschlüsseln sind
 
 Wenn du einen **elektronischen Schlüssel** verlierst oder beschädigst, kostet die Programmierung eines neuen Schlüssels bis ca. 100 Euro.
 
-```
+```markdown
 ## intent:schluesselverlust_schluesselbeschaedigung
 - Was kostet es einen Schlüssel zu verlieren?
 - Was kostet ein Schlüsselverlust?
@@ -36,7 +36,7 @@ Du hast dich aus der WG ausgesperrt
 - Werktags von 10:00-15:00 Uhr kannst du probieren ob jemand aus dem Büro dir freundlicherweise die WG aufsperren kann.
 - Ist der letzte Ausweg wirklich nur einen Schlüsseldienst zu rufen?
 
-```
+```markdown
 ## intent:ausgesperrt
 - Ich habe mich ausgesperrt.
 - Ich komme nicht mehr in die WG rein.
@@ -47,7 +47,7 @@ Du hast dich aus der WG ausgesperrt
 
 Du bist verpflichtet auf das Schließverhalten der elektronischen Türschlösser zu achten. Es kann sonst, sollte die Batterie leer werden, die ganze WG oder das ganze Haus ausgesperrt werden. Bitte melde uns sobald es eine Verzögerung beim Schließverhalten der Tür gibt, die Tür piept oder mehrmals Rot blinkt.
 
-```
+```markdown
 ## intent:batteriewarnung
 - Der Zylinder piept.
 - Der Schlüssel sperrt nur noch langsam
@@ -56,7 +56,8 @@ Du bist verpflichtet auf das Schließverhalten der elektronischen Türschlösser
 ## Schlüsseldienst
 
 Unsere Empfehlung ist Meusel und Beck (0911/94481-0). Meusel und Beck öffnet dir die Türe ohne größere Schäden anzurichten. Andere Schlüsseldienste bringen dich zwar wieder in dein Zimmer, verursachen dabei aber hohe Sachschäden. Ein Schlüsseldienst hält den Rekord mit einem vierstelligen Sachschaden.
-```
+
+```markdown
 ## intent:schluesseldienst
 - Ich brauche einen Schlüsseldienst.
 - Könnt Ihr mir einen Schlüsseldienst empfehlen?
