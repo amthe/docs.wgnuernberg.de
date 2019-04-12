@@ -16,6 +16,15 @@ Schlüsselverluste wie z.B. bei Wohnungsschlüsseln oder Arbeitsschlüsseln sind
 
 Wenn du einen **elektronischen Schlüssel** verlierst oder beschädigst, kostet die Programmierung eines neuen Schlüssels bis ca. 100 Euro.
 
+```
+## intent:schluesselverlust_schluesselbeschaedigung
+- Was kostet es einen Schlüssel zu verlieren?
+- Was kostet ein Schlüsselverlust?
+- Mein Schlüssel funktioniert nicht mehr richtig.
+- Mein Schlüssel ist kaputt.
+- Ich habe einen Schlüssel verloren.
+```
+
 ## Ausgesperrt
 
 Wir geben die Schlüssel bei Mietbeginn aus, und nehmen sie bei Mietende zurück. Wenn du dich aussperrst dann können wir als Mietverwaltung nichts machen. Für dein Zimmer haben wir keinen Schlüssel. Wir können dir auch im Notfall nicht aufsperren.
@@ -26,6 +35,13 @@ Du hast dich aus der WG ausgesperrt
 - Kannst du bei einem Freund, in einer anderen WG oder in einem Hotel übernachten?
 - Werktags von 10:00-15:00 Uhr kannst du probieren ob jemand aus dem Büro dir freundlicherweise die WG aufsperren kann.
 - Ist der letzte Ausweg wirklich nur einen Schlüsseldienst zu rufen?
+
+```
+## intent:ausgesperrt
+- Ich habe mich ausgesperrt.
+- Ich komme nicht mehr in die WG rein.
+- Ich komme nicht mehr in meine Zimmer rein.
+```
 
 ## Batteriewarnung
 
