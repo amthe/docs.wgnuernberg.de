@@ -7,7 +7,7 @@ ctypes: ['answer-xl', 'intent']
 
 {% for ctype in page.ctypes %}
 {% if ctype == "intent" %}
-  Nur Intents
+Nur Intents
 {% endif %}
 {% endfor %}
 
@@ -17,10 +17,32 @@ Du bekommst von uns drei normale mechanischen Schlüssel und zwei elektronische 
 
 ## Schlüsselverlust und Schlüsselbeschädigungen
 
+{% for ctype in page.ctypes %}
+{% if ctype == "answer-xl" %}
 Wenn du einen **mechanischen Schlüssel** verlierst oder beschädigst, musst du diesen in einem Schlüsselladen nachmachen lassen. Das kostet dich nur noch ca. 10 Euro. Früher kostete ein verlorener Schlüssel ca. 200 Euro.
 Schlüsselverluste wie z.B. bei Wohnungsschlüsseln oder Arbeitsschlüsseln sind sehr teuer.
-
+{% endif %}
+{% endfor %}
+{% for ctype in page.ctypes %}
+{% if ctype == "intent" %}
+## intent:schluesselverlust_schluesselbeschaedigung_mechanischer_schluessel
+- Was kostet es einen mechanischen Schlüssel zu verlieren?
+- Was kostet ein mechanischer Schlüsselverlust?
+{% endif %}
+{% endfor %}
+{% for ctype in page.ctypes %}
+{% if ctype == "answer-xl" %}
 Wenn du einen **elektronischen Schlüssel** verlierst oder beschädigst, kostet die Programmierung eines neuen Schlüssels bis ca. 100 Euro.
+{% endif %}
+{% endfor %}
+{% for ctype in page.ctypes %}
+{% if ctype == "intent" %}
+## intent:schluesselverlust_schluesselbeschaedigung_transponder
+- Was kostet es einen Chip zu verlieren?
+- Was kostet es einen Transponder zu verlieren?
+- Was kostet ein Schlüsselverlust des Chip's?
+{% endif %}
+{% endfor %}
 
 ```markdown
 ## intent:schluesselverlust_schluesselbeschaedigung
