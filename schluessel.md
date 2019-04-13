@@ -2,12 +2,14 @@
 title: Schlüssel
 parent: Wohnen
 has_children: false
-type: intent
+ctypes: ['answer-xl', 'intent']
 ---
 
-{% if {{ page.type }} == intent %}
+{% for ctype in page.ctypes %}
+{% if ctype == "intent" %}
   Nur Intents
 {% endif %}
+{% endfor %}
 
 # Schlüssel
 
