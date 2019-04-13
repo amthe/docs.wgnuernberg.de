@@ -5,12 +5,6 @@ has_children: false
 ctypes: ['answer-xl', 'intent']
 ---
 
-{% for ctype in page.ctypes %}
-{% if ctype == "intent" %}
-Nur Intents
-{% endif %}
-{% endfor %}
-
 # Schlüssel
 
 Du bekommst von uns drei normale mechanischen Schlüssel und zwei elektronische Transponder (Chips). Durch die Kombination aus mechanischen Schlüsseln und elektromechanischen Schlüsseln hast du die minimalen Kosten im Fall eines Schlüsselverlustes und den höchsten Komfort.
@@ -25,9 +19,11 @@ Schlüsselverluste wie z.B. bei Wohnungsschlüsseln oder Arbeitsschlüsseln sind
 {% endfor %}
 {% for ctype in page.ctypes %}
 {% if ctype == "intent" %}
+```markdown
 ## intent:schluesselverlust_schluesselbeschaedigung_mechanischer_schluessel
 - Was kostet es einen mechanischen Schlüssel zu verlieren?
 - Was kostet ein mechanischer Schlüsselverlust?
+```
 {% endif %}
 {% endfor %}
 {% for ctype in page.ctypes %}
@@ -37,10 +33,12 @@ Wenn du einen **elektronischen Schlüssel** verlierst oder beschädigst, kostet 
 {% endfor %}
 {% for ctype in page.ctypes %}
 {% if ctype == "intent" %}
+```markdown
 ## intent:schluesselverlust_schluesselbeschaedigung_transponder
 - Was kostet es einen Chip zu verlieren?
 - Was kostet es einen Transponder zu verlieren?
 - Was kostet ein Schlüsselverlust des Chip's?
+```
 {% endif %}
 {% endfor %}
 
