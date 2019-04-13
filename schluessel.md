@@ -2,12 +2,16 @@
 title: Schlüssel
 parent: Wohnen
 has_children: false
+type: intent
 ---
+
+{% if {{ page.type }} == intent %}
+  Nur Intents
+{% endif %}
 
 # Schlüssel
 
 Du bekommst von uns drei normale mechanischen Schlüssel und zwei elektronische Transponder (Chips). Durch die Kombination aus mechanischen Schlüsseln und elektromechanischen Schlüsseln hast du die minimalen Kosten im Fall eines Schlüsselverlustes und den höchsten Komfort.
-Die elektromechanischen Türschlösser sind von Uhlmann und Zacher Typ CX6122/24/26.
 
 ## Schlüsselverlust und Schlüsselbeschädigungen
 
@@ -29,8 +33,7 @@ Wenn du einen **elektronischen Schlüssel** verlierst oder beschädigst, kostet 
 
 Wir geben die Schlüssel bei Mietbeginn aus, und nehmen sie bei Mietende zurück. Wenn du dich aussperrst dann können wir als Mietverwaltung nichts machen. Für dein Zimmer haben wir keinen Schlüssel. Wir können dir auch im Notfall nicht aufsperren.
 
-Du hast dich aus der WG ausgesperrt
-
+Du hast dich aus der WG ausgesperrt:
 - Kannst du einen Mitbewohner anrufen ob er dir jetzt oder später die WG aufsperren kann?
 - Kannst du bei einem Freund, in einer anderen WG oder in einem Hotel übernachten?
 - Werktags von 10:00-15:00 Uhr kannst du probieren ob jemand aus dem Büro dir freundlicherweise die WG aufsperren kann.
@@ -40,7 +43,7 @@ Du hast dich aus der WG ausgesperrt
 ## intent:ausgesperrt
 - Ich habe mich ausgesperrt.
 - Ich komme nicht mehr in die WG rein.
-- Ich komme nicht mehr in meine Zimmer rein.
+- Ich komme nicht mehr in mein Zimmer rein.
 ```
 
 ## Batteriewarnung
@@ -50,7 +53,7 @@ Du bist verpflichtet auf das Schließverhalten der elektronischen Türschlösser
 ```markdown
 ## intent:batteriewarnung
 - Der Zylinder piept.
-- Der Schlüssel sperrt nur noch langsam
+- Der Schlüssel sperrt nur noch langsam.
 ```
 
 ## Schlüsseldienst
